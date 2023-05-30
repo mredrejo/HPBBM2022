@@ -1,0 +1,78 @@
+---
+title: "HPBBM2023"
+author: 
+  - name: Modesto
+    url: https://mredrejo.github.io/rnrlab
+    affiliation: Department of Biochemistry, UAM
+    affiliation_url: https://www.uam.es/
+date-modified: "`r format(Sys.time(), '%Y-%m-%d (%H:%M h)')`"
+
+toc: true
+
+format:
+  html:
+    theme: sketchy
+    link-external-icon: true
+    link-external-newwindow: true
+editor: visual
+---
+
+> There are only two kinds of programming languages: the ones people complain about and the ones nobody uses. ---*Bjarne Stroustrup*
+
+## [Wellcome & Disclaimer]{style="color:cornflowerblue"}
+
+::: {#p style="float: left; position: relative; top: 0px; padding: 0px;"}
+This site contains the materials for the *Coding tools for Biochemistry & Molecular Biology* (Herramientas de Programación para Bioquímica y Biología Molecular, aka **HPBBM**) course of fall 2023 in the Bachelor's Degree in Biochemistry \@[UAM](www.uam.es) (Universidad Autónoma de Madrid, Spain). Materials from last year are avilable in the [HPBBM2022 site](https://mredrejo.github.io/HPBBM2022/) and [GitHub repo](https://github.com/mredrejo/HPBBM2022).
+
+The course contains a first block of lessons on Python programming (Lessons 1-7) and a Python-vs-R introductory lessons (Lessons R1 & R2) that are not included here. Detailed academic information about the course contents, dates, and assessment only can be found at the [UAM Moodle site](https://moodle.uam.es/).
+
+Each lesson contains [*R challenges or exercises*]{style="color:green"}, some of them from freely available online solved exercises and others that I created. The answers to the latter are not available online, but I'll be glad to provide them upon request.
+:::
+
+::: {style="float: right; position: relative; top: 0px; padding: 3px;"}
+![](HPBBM2023.png){width="228"}
+:::
+
+This site is on a [GitHub repo](https://github.com/mredrejo/HPBBM2023), containing the source *R Markdown files* and the data used in the examples and exercises. You can use [DownGit](https://yehonal.github.io/DownGit/#/home) links to download specific folders in a Zip file, like the [data](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/mredrejo/HPBBM2022/tree/main/data) folder. When you "knit" the report, R Studio will execute the code within each chunk in the notebook and the results appear beneath the code in the output file (usually HTML or PDF). Check also <https://bookdown.org/yihui/rmarkdown-cookbook/spin.html> for more info about how to use Notebooks and Markdown. Markdown recently evolved to **Quarto**, which has increased capabilities. To learn more about Quarto see <https://quarto.org>. Check also the [final lesson](Lesson_E_markdown/E_markdown.html) of this course.
+
+All this material is open access and it is shared under [CC BY-NC](https://creativecommons.org/licenses/by-nc/2.0/) license.
+
+::: callout-warning
+## Under construction
+:::
+
+This is the first complete draft of this site, but it is intended to be expanded and corrected throughout the next weeks and new versions will be available the following years. Any feedback, help, or suggestions will be very warmly welcome.
+
+Also, it is likely that you find some mistypes or even some big mistakes throughout these course materials. I, and the future students, will appreciate it if you let me know about anything that could be corrected or just improved. You can reach me by [email](mailto::modesto.redrejo@uam.es) or [![](index_files/tw.png "@mredrejo"){width="14" height="11"} Twitter](https://twitter.com/mredrejo "Twitter").
+
+## [Bibliography and Resources]{style="color:cornflowerblue"}
+
+Each lesson contains its own specific references, but I wanted to highlight here some curated general open access and open source resources to introduce yourself into R and R Studio.
+
+-   Grolemund, G. [*Hands-on Programming in R*](https://rstudio-education.github.io/)*.*
+
+-   Peng, R. D. R [*Programming for Data Science.*](https://bookdown.org/rdpeng/rprogdatascience/)
+
+-   Coulatti, R. I. [*R Crash Course for Biologist*.](https://github.com/ColauttiLab/RCrashCourse_Book)
+
+-   Chang, W. R. [R Graphics Cookbook.](https://r-graphics.org/)
+
+-   Doyle, M., Chung, J. & Perreau V. [Introduction to R for Biologists.](https://melbournebioinformatics.github.io/r-intro-biologists/intro_r_biologists.html)
+
+-   [Learn R by example](https://www.learnbyexample.org/r/)
+
+## [Contents]{style="color:cornflowerblue"}
+
+### [Lesson R3: Data input and output in R](Lesson_9_input_output/9_input_output.html)
+
+### [Lesson R4: Write your own functions](Lesson_10_Functions/10_Functions.html)
+
+### [Lesson R5: Plots](Lesson_11_plots/11_basicplotting.html)
+
+### [Lesson R6: Data management](Lesson_12_data_management/12_adv_data_management.html)
+
+### [Lesson R7: Advanced plots with ggplot](Lesson_13_ggplot/13_ggplotting.html)
+
+### [Lesson R8: Applications for Molecular Biology](Lesson_14_R_for_molbiol/14_R4bqbm.html)
+
+### [Extra Lesson: Introduction to R projects, R Markdown and Quarto.](Lesson_E_markdown/E_markdown.html)
